@@ -5,4 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make say-hello
+      - name: Run make say-hello
+        run: make say-hello
